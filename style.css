@@ -14,7 +14,7 @@ hmtl, body {
     overflow: hidden;
     background-color: #333;
     color: #fff;
-    line-height: 1.7;
+     line-height: 1.7;
 }
 
 .slider-container {
@@ -40,6 +40,7 @@ hmtl, body {
 .slide img {
     max-width: 100%;
     max-height: 60%;
+    transition: transform 0.3s ease-out;
 }
 
 .slide h2{
@@ -65,4 +66,3 @@ hmtl, body {
 .grabbing .slide img {
     transform: scale(0.9);
 }
-
